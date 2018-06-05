@@ -1,0 +1,24 @@
+.section-contact {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.section-contact ul.contact {
+  list-style-type: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-contact ul.contact li {
+  margin: 1rem 0 1rem 0;
+}
+
+.section-contact ul.profiles {
+  list-style-type: none;
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0;
+}
+
+.section-contact ul.profiles li {
+  margin: 1rem 0 1rem 0;
+}

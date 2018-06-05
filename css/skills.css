@@ -1,0 +1,8 @@
+.section-skills .item {
+  margin-bottom: 1rem;
+}
+
+#skill-overrides .item .keywords .label {
+  color: #EEF8FF;
+  background-color: #0D3D56;
+}

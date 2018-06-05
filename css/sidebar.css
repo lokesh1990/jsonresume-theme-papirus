@@ -1,0 +1,19 @@
+/* Sidebar */
+.sidebar {
+  padding: .8rem 1.6rem;
+  background: #f9f9f9;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.sidebar h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
+.sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+  text-decoration: none;
+}

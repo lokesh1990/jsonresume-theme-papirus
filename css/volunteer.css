@@ -1,0 +1,21 @@
+.section-volunteer .item {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.section-volunteer .item .position {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-volunteer .item .company {
+  margin: .3rem 0;
+}
+
+.section-volunteer .item .company .date {
+  float: right;
+}
+.section-volunteer .item .summary, .section-volunteer .item .highlights {
+    text-align: justify;
+}

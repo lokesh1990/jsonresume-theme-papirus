@@ -1,0 +1,29 @@
+.section-work .item {
+  margin-bottom: 1.6rem;
+}
+
+.section-work .item .position {
+  font-weight: bold;
+  color: #0B374D;
+  text-transform: uppercase;
+}
+
+.section-work .item .company {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #3A6378;
+    font-weight: bold;
+}
+
+.section-work .item .company .date {
+  float: right;
+}
+
+.section-work .item .highlights {
+ list-style-type:none;
+ font-size: 1.3rem;
+ line-height: 1.4;
+}
+
+.section-work .item .highlights li {
+  margin: .3rem 0;
+}

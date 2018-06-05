@@ -21,7 +21,6 @@
 			{{/if}}
 			<span class="date">
 				{{#if startDate}}
-				|
 				<span class="startDate">
 					{{formatDate startDate}}
 				</span>
@@ -34,13 +33,6 @@
 				<span class="endDate">
 					- Present
 				</span>
-				{{/if}}
-				{{#if startDate}}
-				{{#if endDate}}
-				<span class="diffDate">
-					({{dateDiff startDate endDate}})
-				</span>
-				{{/if}}
 				{{/if}}
 			</span>
 		</div>

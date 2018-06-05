@@ -1,5 +1,5 @@
 {{#if resume.skills.length}}
-<section class="section-skills">
+<section class="section-skills" id="skill-overrides">
 	{{>title title='Skills'}}
 	{{#each resume.skills}}
 	<div class="item">
@@ -7,13 +7,17 @@
 		<div class="name">
 			{{name}}
 		</div>
+		{{/if}}
 		{{#if keywords.length}}
 		<div class="keywords">
+			<!--Use level to add tab -->
+			{{#equals level "tab"}}
+				&emsp;
+			{{/equals}}
 			{{#each keywords}}
 			<span class="label label-default">{{.}}</span>
 			{{/each}}
 		</div>
-		{{/if}}
 		{{/if}}
 	</div>
 	{{/each}}
