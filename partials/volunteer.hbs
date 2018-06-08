@@ -5,19 +5,9 @@
 	<div class="item">
 		{{#if position}}
 		<div class="position">
-			{{position}}
-		</div>
-		{{/if}}
-		{{#if organization}}
-		<div class="company">
-			<span class="name">
-				{{organization}}
+			<span class="title">
+				{{position}}
 			</span>
-			{{#if website}}
-			<span class="website">
-				| {{website}}
-			</span>
-			{{/if}}
 			<span class="date">
 				{{#if startDate}}
 				<span class="startDate">
@@ -34,6 +24,18 @@
 				</span>
 				{{/if}}
 			</span>
+		</div>
+		{{/if}}
+		{{#if organization}}
+		<div class="company">
+			<span class="name">
+				{{organization}}
+			</span>
+			{{#if website}}
+			<span class="website">
+				| {{website}}
+			</span>
+			{{/if}}
 		</div>
 		{{/if}}
 		{{#if summary}}

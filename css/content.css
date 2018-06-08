@@ -1,7 +1,6 @@
 /* Content */
 .content {
   padding: .8rem 1.6rem;
-  background: #FFFFFF;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
   text-align: justify;
@@ -11,10 +10,10 @@
   color: #0D3D56;
   text-transform: uppercase;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: .8rem;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
 
 .content h2 {
@@ -24,7 +23,8 @@
   font-size: 2rem;
   letter-spacing: .4rem;
   font-weight: bold;
-  margin-top: 3rem;
+  margin-top: 1.4rem;
+  margin-bottom: .6rem;
 }
 
 .content a:link, .content a:hover, .content a:visited {

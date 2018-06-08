@@ -1,23 +1,22 @@
 .section-education .item {
-  margin-bottom: 1rem;
+  margin-bottom: .6rem;
   font-size: 1.3rem;
-  line-height: 1.4;
 }
 
 .section-education .item .studyTitle {
   text-transform: uppercase;
   font-weight: bold;
-  margin: .4rem 0;
+}
+
+.section-education .item .institution {
+  color: #3A6378;
+  font-weight: bold;
 }
 
 .section-education ul.courses {
   list-style-type: none;
   margin: 0.5rem 0 0.5rem 0;
   padding: 0;
-}
-
-.section-education .item .institution {
-  margin: .3rem 0;
 }
 
 .section-education .ul.courses li {

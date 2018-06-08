@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font: 15px Arial, Helvetica, sans-serif;
+  font: 12px Arial, Helvetica, sans-serif;
   line-height: 1.3;
   color: #222244;
   font-size: 1.4rem;
@@ -8,26 +8,16 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 6%;
+  padding: 0;
 }
 
-#resume, #header{
+#resume, #header {
   overflow: hidden;
 }
 
-section {
-  margin-bottom: 1.6rem;
-}
-
 [class^="section-"] > .title {
-  text-transform: uppercase;
-  padding: 3.2px 0;
-  color: #107895;
-  text-align: center;
   font-size: 1.6rem;
   letter-spacing: .2rem;
-  font-weight: bold;
-  margin-top: 2.4rem;
 }
 
 [class^="section-"] > .title .title-icon,
@@ -42,7 +32,7 @@ section {
 
 [class^="section-"] > .title .title-icon {
   background-color: whitesmoke;
-  border-radius: 10%;
+  border-radius: 5%;
   width: 2rem;
   height: 2rem;
   padding: 0.4rem 0.45rem;

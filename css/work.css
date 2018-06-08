@@ -1,5 +1,5 @@
 .section-work .item {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
 }
 
 .section-work .item .position {
@@ -14,6 +14,10 @@
     font-weight: bold;
 }
 
+.section-work .item .summary > p {
+  margin: 0 0 3px;
+}
+
 .section-work .item .company .date {
   float: right;
 }
@@ -21,9 +25,8 @@
 .section-work .item .highlights {
  list-style-type:none;
  font-size: 1.3rem;
- line-height: 1.4;
 }
 
 .section-work .item .highlights li {
-  margin: .3rem 0;
+  margin: .2rem 0;
 }

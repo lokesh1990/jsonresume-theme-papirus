@@ -1,19 +1,18 @@
 .section-volunteer .item {
-  margin-bottom: 1rem;
   font-size: 1.3rem;
-  line-height: 1.4;
 }
 
-.section-volunteer .item .position {
+.section-volunteer .item .position .title {
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .section-volunteer .item .company {
-  margin: .3rem 0;
+  color: #3A6378;
+  font-weight: bold;
 }
 
-.section-volunteer .item .company .date {
+.section-volunteer .item .position .date {
   float: right;
 }
 .section-volunteer .item .summary, .section-volunteer .item .highlights {
