@@ -1,6 +1,6 @@
 /* Content */
 .content {
-  padding: .8rem 1.6rem;
+  padding: .8rem 1.6rem .8rem .8rem;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
   text-align: justify;
@@ -11,7 +11,7 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 4rem;
-  letter-spacing: .8rem;
+  letter-spacing: .7rem;
   font-weight: bold;
   margin-top: 1.2rem;
 }
@@ -21,7 +21,7 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
-  letter-spacing: .4rem;
+  letter-spacing: .2rem;
   font-weight: bold;
   margin-top: 1.4rem;
   margin-bottom: .6rem;

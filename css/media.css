@@ -44,7 +44,7 @@
 
   /* Sidebar */
   .sidebar {
-    padding: .8rem 1.6rem;
+    padding: .8rem 0rem .8rem 1.6rem;
     margin-bottom: -99999px;
     padding-bottom: 99999px;
   }
@@ -99,7 +99,7 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
-    letter-spacing: .8rem;
+    letter-spacing: .7rem;
     font-weight: bold;
     margin-top: 1.2rem;
   }
@@ -109,7 +109,7 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
-    letter-spacing: .4rem;
+    letter-spacing: .2rem;
     font-weight: bold;
     margin-top: 1.4rem;
     margin-bottom: .6rem;
@@ -152,7 +152,7 @@
   }
 
   .section-work .item .highlights {
-   list-style-type:none;
+   list-style-type:square;
    font-size: 1.3rem;
   }
 
@@ -201,6 +201,7 @@
 
   .section-contact ul.contact {
     list-style-type: none;
+    text-align: justify;
     margin: 0.2rem 0 0.2rem 0;
     padding: 0;
   }
