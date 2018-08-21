@@ -1,6 +1,15 @@
 {{#if resume.basics.summary}}
 	<section class="section-summary">
 		{{>title title='Summary'}}
-		{{resume.basics.summary}}
+		<div class="summary">
+			<p>{{resume.basics.summary}}</p>
+		</div>
+		{{#if resume.basics.highlights.length}}
+		<ul class="highlights">
+			{{#each resume.basics.highlights}}
+			<li>{{.}}</li>
+			{{/each}}
+		</ul>
+		{{/if}}
 	</section>
 {{/if}}

@@ -10,12 +10,8 @@
 		{{/if}}
 		{{#if keywords.length}}
 		<div class="keywords">
-			<!--Use level to add tab -->
-			{{#equals level "tab"}}
-				&emsp;
-			{{/equals}}
 			{{#each keywords}}
-			<span class="label label-default">{{.}}</span>
+				<span class="label label-default">{{.}}</span>
 			{{/each}}
 		</div>
 		{{/if}}

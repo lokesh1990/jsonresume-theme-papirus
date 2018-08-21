@@ -1,8 +1,7 @@
 /* Sidebar */
 .sidebar {
-  padding: .8rem .8rem .8rem 1.6rem;
+  padding: 0 0 99999px 1.6rem;
   margin-bottom: -99999px;
-  padding-bottom: 99999px;
 }
 
 .sidebar h2 {
@@ -10,7 +9,7 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  margin-top: 1.4rem;
+  margin-top: 1rem;
   margin-bottom: .6rem;
 }
 

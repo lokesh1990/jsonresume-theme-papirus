@@ -20,7 +20,7 @@
 
   [class^="section-"] > .title {
     font-size: 1.6rem;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
   }
 
   [class^="section-"] > .title .title-icon,
@@ -44,9 +44,8 @@
 
   /* Sidebar */
   .sidebar {
-    padding: .8rem 0rem .8rem 1.6rem;
+    padding: 0 0 99999px 1.6rem;
     margin-bottom: -99999px;
-    padding-bottom: 99999px;
   }
 
   .sidebar h2 {
@@ -54,7 +53,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    margin-top: 1.4rem;
+    margin-top: 1rem;
     margin-bottom: .6rem;
   }
 
@@ -86,11 +85,20 @@
     font-weight: bold;
   }
 
+  .section-education ul.courses {
+    list-style-type: none;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0;
+  }
+
+  .section-education .ul.courses li {
+    margin:0;
+  }
+
   /* Content */
   .content {
-    padding: .8rem 1.6rem;
+    padding: 0 1.6rem 99999px .8rem;
     margin-bottom: -99999px;
-    padding-bottom: 99999px;
     text-align: justify;
   }
 
@@ -101,7 +109,8 @@
     font-size: 4rem;
     letter-spacing: .7rem;
     font-weight: bold;
-    margin-top: 1.2rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
   }
 
   .content h2 {
@@ -111,7 +120,7 @@
     font-size: 2rem;
     letter-spacing: .2rem;
     font-weight: bold;
-    margin-top: 1.4rem;
+    margin-top: 1rem;
     margin-bottom: .6rem;
   }
 
@@ -122,6 +131,19 @@
   /* Sections */
   .section-summary {
     text-align: justify;
+  }
+
+  .section-summary .summary > p {
+    margin: 0 0 3px;
+  }
+
+  .section-summary .highlights {
+   list-style-type:square;
+   font-size: 1.3rem;
+  }
+
+  .section-summary .highlights li {
+    margin: .2rem 0;
   }
 
   .section-work .item {
@@ -135,7 +157,7 @@
   }
 
   .section-work .item .company {
-      padding: 0 0;
+      padding: 0.5rem 0 0.5rem 0;
       font-weight: bold;
   }
 
@@ -177,8 +199,20 @@
   .section-volunteer .item .position .date {
     float: right;
   }
+
   .section-volunteer .item .summary, .section-volunteer .item .highlights {
       text-align: justify;
+  }
+
+  #interests-overrides {
+    margin-bottom: 1.4rem;
+  }
+  
+  #interests-overrides .item {
+    margin-bottom: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #interests-overrides .item .keywords .label {
@@ -186,8 +220,15 @@
     background-color: #0D3D56 !important;
   }
 
+  #skill-overrides {
+    margin-bottom: 1.4rem;
+  }
+
   .section-skills .item {
     margin-bottom: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #skill-overrides .item .keywords .label {
@@ -202,7 +243,7 @@
   .section-contact ul.contact {
     list-style-type: none;
     text-align: justify;
-    margin: 0.2rem 0 0.2rem 0;
+    margin: 0.8rem 0 0.2rem 0;
     padding: 0;
   }
 

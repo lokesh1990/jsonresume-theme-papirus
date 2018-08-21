@@ -1,5 +1,12 @@
+#skill-overrides {
+  margin-bottom: 1.4rem;
+}
+
 .section-skills .item {
   margin-bottom: .6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #skill-overrides .item .keywords .label {
