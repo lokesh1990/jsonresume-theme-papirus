@@ -8,34 +8,42 @@
 			{{position}}
 		</div>
 		{{/if}}
+
+		{{#if dates.length}}
+		{{#each dates}}
 		<div class="company">
-			{{#if company}}
-			<span class="name">
-				{{company}}
-			</span>
-			{{#if website}}
-			<span class="website">
-				| {{website}}
-			</span>
-			{{/if}}
-			{{/if}}
+			{{#unless skipCompany}}
+				{{#if ../company}}
+					<span class="name">
+						{{../company}}
+					</span>
+					{{#if ../website}}
+					<span class="website">
+						| {{../website}}
+					</span>
+					{{/if}}
+				{{/if}}
+			{{/unless}}
 			<span class="date">
-				{{#if startDate}}
+			{{#if startDate}}
 				<span class="startDate">
 					{{formatDate startDate}}
 				</span>
-				{{/if}}
-				{{#if endDate}}
+			{{/if}}
+			{{#if endDate}}
 				<span class="endDate">
 					- {{formatDate endDate}}
 				</span>
-				{{else}}
+			{{else}}
 				<span class="endDate">
 					- Present
 				</span>
-				{{/if}}
+			{{/if}}
 			</span>
 		</div>
+  	{{/each}}
+		{{/if}}
+
 		{{#if summary}}
 		<div class="summary">
 			<p>{{summary}}</p>

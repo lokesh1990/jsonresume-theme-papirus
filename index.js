@@ -68,6 +68,14 @@ Handlebars.registerHelper('formatDateYear', function(date) {
 	return date;
 });
 
+Handlebars.registerHelper('greaterThan', function(v1, v2, options) {
+	'use strict';
+   if (v1 > v2) {
+     return options.fn(this);
+  }
+  return options.inverse(this);
+});
+
 Handlebars.registerHelper('networkIcon', function(network) {
 	if(network === 'StackOverflow') {
         return 'stack-overflow';
@@ -83,7 +91,7 @@ Handlebars.registerHelper('wordWrap', function(str) {
 });
 
 Handlebars.registerHelper('equals', function(src, target, options) {
-	if(typeof src !== undefined && src.length > 0 && src === target) {
+	if(typeof src !== undefined && src === target) {
     return options.fn(this);
   }
   return options.inverse(this);

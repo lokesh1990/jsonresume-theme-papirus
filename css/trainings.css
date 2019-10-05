@@ -1,0 +1,18 @@
+.section-trainings .item {
+  margin-bottom: .6rem;
+  font-size: 1.3rem;
+}
+
+.section-trainings .item .course .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-trainings .item .institution {
+  color: #3A6378;
+  font-weight: bold;
+}
+
+.section-trainings .item .summary, .section-trainings .item .highlights {
+    text-align: justify;
+}

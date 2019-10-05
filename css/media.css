@@ -95,6 +95,21 @@
     margin:0;
   }
 
+  .section-trainings .item {
+    margin-bottom: .6rem;
+    font-size: 1.3rem;
+  }
+
+  .section-trainings .item .course .title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .section-trainings .item .institution > span {
+    color: #3A6378 !important;
+    font-weight: bold;
+  }
+
   /* Content */
   .content {
     padding: 0 1.6rem 99999px .8rem;
@@ -157,7 +172,7 @@
   }
 
   .section-work .item .company {
-      padding: 0.5rem 0 0.5rem 0;
+      padding: 0.2rem 0;
       font-weight: bold;
   }
 
@@ -207,7 +222,7 @@
   #interests-overrides {
     margin-bottom: 1.4rem;
   }
-  
+
   #interests-overrides .item {
     margin-bottom: .6rem;
     display: flex;

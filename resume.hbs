@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-		<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+		<title>github.com/lokesh1990/jsonresume-theme-papirus</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 		<style>
@@ -13,10 +13,7 @@
 	<body>
 		<div class="container">
 			<div class="row" id = "header">
-				<div class="col-xs-4 sidebar">
-					{{> photo }}
-				</div>
-				<div class="col-xs-8 content">
+				<div class="col-xs-12 content">
 					{{> name }}
 				</div>
 			</div>
@@ -26,6 +23,7 @@
 					{{> skills }}
 					{{> education }}
 					{{> awards }}
+					{{> trainings }}
 					{{> interests }}
 					{{> volunteer }}
 					{{> languages }}
@@ -33,7 +31,6 @@
 				<div class="col-xs-8 content">
 					{{> summary }}
 					{{> work }}
-					{{> publications }}
 					{{> references }}
 				</div>
 			</div>

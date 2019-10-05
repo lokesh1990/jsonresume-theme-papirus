@@ -38,9 +38,14 @@ http://registry.jsonresume.org/
 ## License
 Available under [the MIT license](http://mths.be/mit).
 
-
-Oh and btw, build your script using
+Build your script:
 
 ```
 npm run buildcss
+```
+
+Start:
+
+```
+resume serve
 ```

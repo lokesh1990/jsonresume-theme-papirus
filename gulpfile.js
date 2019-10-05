@@ -15,7 +15,7 @@ gulp.task('buildcss', function() {
     "css/summary.css",
     "css/work.css",
     "css/volunteer.css",
-    "css/publication.css",
+    "css/trainings.css",
     "css/awards.css",
     "css/languages.css",
     "css/interests.css",

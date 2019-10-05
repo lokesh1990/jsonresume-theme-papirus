@@ -9,9 +9,10 @@
 }
 
 .section-work .item .company {
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.2rem 0;
     color: #3A6378;
     font-weight: bold;
+    min-height: 22.2px
 }
 
 .section-work .item .summary > p {
