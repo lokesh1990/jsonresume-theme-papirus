@@ -20,17 +20,15 @@ body {
   letter-spacing: .1rem;
 }
 
-[class^="section-"] > .title .title-icon,
 [class^="section-"] > .title span {
   display: inline-block;
   vertical-align: middle;
-}
-
-[class^="section-"] > .title span {
   margin-left: 5px;
 }
 
 [class^="section-"] > .title .title-icon {
+  display: inline-block;
+  vertical-align: middle;
   background-color: whitesmoke;
   border-radius: 5%;
   width: 2rem;

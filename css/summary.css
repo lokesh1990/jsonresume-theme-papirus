@@ -8,7 +8,7 @@
 
 .section-summary .highlights {
  list-style-type:square;
- font-size: 1.3rem;
+ /* font-size: 1.3rem; */
 }
 
 .section-summary .highlights li {

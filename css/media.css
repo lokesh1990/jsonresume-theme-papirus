@@ -61,21 +61,13 @@
     text-decoration: none;
   }
 
-  .avatar {
-    margin: 2rem 0 2rem 1rem;
-    text-align: center;
-  }
-
-  .avatar img {
-    width: 85%;
-  }
-
   .section-education .item {
     margin-bottom: .6rem;
     font-size: 1.3rem;
   }
 
-  .section-education .item .studyTitle {
+  .section-education .item .studyTitle > span {
+    color: #0B374D !important;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -83,16 +75,6 @@
   .section-education .item .institution {
     color: #3A6378 !important;
     font-weight: bold;
-  }
-
-  .section-education ul.courses {
-    list-style-type: none;
-    margin: 0.5rem 0 0.5rem 0;
-    padding: 0;
-  }
-
-  .section-education .ul.courses li {
-    margin:0;
   }
 
   .section-trainings .item {
@@ -103,6 +85,7 @@
   .section-trainings .item .course .title {
     font-weight: bold;
     text-transform: uppercase;
+    color: #0B374D !important;
   }
 
   .section-trainings .item .institution > span {
@@ -176,7 +159,8 @@
       font-weight: bold;
   }
 
-  .section-work .item .company > span, .section-work .item .company .date > span {
+  .section-work .item .company > span, 
+  .section-work .item .company .date > span {
     color: #3A6378 !important;
   }
 
@@ -197,58 +181,26 @@
     margin: .2rem 0;
   }
 
-  .section-volunteer .item {
-    font-size: 1.3rem;
-  }
-
-  .section-volunteer .item .position .title {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  .section-volunteer .item .company > span {
-    color: #3A6378 !important;
-    font-weight: bold;
-  }
-
-  .section-volunteer .item .position .date {
-    float: right;
-  }
-
-  .section-volunteer .item .summary, .section-volunteer .item .highlights {
-      text-align: justify;
-  }
-
-  #interests-overrides {
-    margin-bottom: 1.4rem;
-  }
-
-  #interests-overrides .item {
-    margin-bottom: .6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #interests-overrides .item .keywords .label {
-    color: #F5FAFF !important;
-    background-color: #0D3D56 !important;
-  }
-
   #skill-overrides {
     margin-bottom: 1.4rem;
   }
 
-  .section-skills .item {
+  .section-skills .item, 
+  #work-keywords-overrides {
     margin-bottom: .6rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  #skill-overrides .item .keywords .label {
-    color: #F5FAFF !important;
-    background-color: #0D3D56 !important;
+  #skill-overrides .item .keywords .label,
+  #work-keywords-overrides .keywords .label {
+    color: #0D3D56 !important;
+    background-color: #FFF !important;
+    border-style: solid !important;
+    border-bottom-width: medium !important;
+    border-left-width: medium !important;
+    border-radius: 0.3em !important;
   }
 
   .section-contact {
@@ -265,14 +217,17 @@
   .section-contact ul.contact li {
     margin: .5rem 0 .5rem 0;
   }
-
-  .section-contact ul.profiles {
-    list-style-type: none;
-    margin: 0.2rem 0 0.2rem 0;
-    padding: 0;
+  
+  .section-summary .summary p,
+  .section-summary .highlights li span,
+  .section-work .item .summary p,
+  .section-work .item .summary p b,
+  .section-work .item .highlights li span,
+  .section-trainings .item .date span,
+  .section-education .item .date span,
+  .section-contact .contact li span,
+  .section-contact .contact li span i {
+    color: #222244 !important;
   }
 
-  .section-contact ul.profiles li {
-    margin: .5rem 0 .5rem 0;
-  }
 }

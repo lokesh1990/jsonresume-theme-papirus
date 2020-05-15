@@ -14,19 +14,7 @@
 				({{area}})
 			</span>
 			{{/if}}
-			{{#if gpa}}
-			<span class="gpa">
-				<span class="badge"> {{gpa}} </span>
-			</span>
-			{{/if}}
 		</div>
-		{{#if courses.length}}
-		<ul class="courses">
-			{{#each courses}}
-			<li>{{.}}</li>
-			{{/each}}
-		</ul>
-		{{/if}}
 		{{#if institution}}
 		<div class="institution">
 			{{institution}}
@@ -35,12 +23,12 @@
 		<div class="date">
 			{{#if startDate}}
 			<span class="startDate">
-				{{formatDateYear startDate}}
+				{{formatDate startDate}}
 			</span>
 			{{/if}}
 			{{#if endDate}}
 			<span class="endDate">
-				- {{formatDateYear endDate}}
+				- {{formatDate endDate}}
 			</span>
 			{{else}}
 			<span class="endDate">

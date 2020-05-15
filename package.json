@@ -4,7 +4,7 @@
   "description": "Papirus theme for JSON Resume with a touch of blue and white sidebar",
   "author": "Konstantinos Alexiou, @lokesh1990",
   "scripts": {
-  "buildcss": "gulp buildcss"
+    "buildcss": "gulp buildcss"
   },
   "repository": {
     "type": "git",

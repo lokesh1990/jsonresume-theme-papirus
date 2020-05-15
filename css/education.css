@@ -6,19 +6,10 @@
 .section-education .item .studyTitle {
   text-transform: uppercase;
   font-weight: bold;
+  color: #0B374D;
 }
 
 .section-education .item .institution {
   color: #3A6378;
   font-weight: bold;
-}
-
-.section-education ul.courses {
-  list-style-type: none;
-  margin: 0.5rem 0 0.5rem 0;
-  padding: 0;
-}
-
-.section-education .ul.courses li {
-  margin:0;
 }

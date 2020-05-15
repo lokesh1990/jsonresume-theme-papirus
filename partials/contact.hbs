@@ -4,42 +4,48 @@
         <ul class="contact">
             {{#if resume.basics.location}}
                 <li class="icon-item clearfix">
-                    <i class="fa fa-map-marker"></i>
-                        {{resume.basics.location.address}}
+                    <span>
+                        <i class="fa fa-map-marker"></i>
                         {{resume.basics.location.city}}
                         {{resume.basics.location.region}}
                         {{resume.basics.location.countryCode}}
-                        {{resume.basics.location.postalCode}}
+                    </span>
                 </li>
             {{/if}}
             {{#if resume.basics.email}}
                 <li class="icon-item clearfix">
-                    <i class="fa fa-envelope "></i>
-                    {{resume.basics.email}}
+                    <span>
+                        <i class="fa fa-envelope "></i>
+                        {{resume.basics.email}}
+                    </span>
                 </li>
             {{/if}}
             {{#if resume.basics.phone}}
                 <li class="icon-item clearfix">
-                    <i class="fa fa-phone "></i>
-                    {{resume.basics.phone}}
+                    <span>
+                        <i class="fa fa-phone "></i>
+                        {{resume.basics.phone}}
+                    </span>
                 </li>
             {{/if}}
             {{#if resume.basics.website}}
                 <li class="icon-item clearfix">
-                    <i class="fa fa-link "></i>
-                    {{resume.basics.website}}
+                    <span>
+                        <i class="fa fa-link "></i>
+                        {{resume.basics.website}}
+                    </span>
                 </li>
             {{/if}}
-        </ul>
-        {{#if resume.basics.profiles.length}}
-            <ul class="profiles">
-                {{#each resume.basics.profiles}}
-                    <li class="icon-item clearfix">
+            {{#if resume.basics.profiles.length}}
+            {{#each resume.basics.profiles}}
+                <li class="icon-item clearfix">
+                    <span>
                         <i class="fa fa-{{networkIcon network}} "></i>
-                        <span>{{wordWrap url}}</span>
-                    </li>
-                {{/each}}
-            </ul>
-        {{/if}}
+                        {{wordWrap url}}
+                    </span>
+                </li>
+            {{/each}}
+            {{/if}}
+        </ul>
     </section>
 {{/if}}

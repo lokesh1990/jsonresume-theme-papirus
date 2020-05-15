@@ -9,50 +9,44 @@
 		</div>
 		{{/if}}
 
-		{{#if dates.length}}
-		{{#each dates}}
 		<div class="company">
-			{{#unless skipCompany}}
-				{{#if ../company}}
-					<span class="name">
-						{{../company}}
-					</span>
-					{{#if ../website}}
-					<span class="website">
-						| {{../website}}
-					</span>
-					{{/if}}
-				{{/if}}
-			{{/unless}}
+		{{#if company}}
+			<span class="name">
+				{{company}}
+			</span>
+		{{/if}}
 			<span class="date">
-			{{#if startDate}}
-				<span class="startDate">
-					{{formatDate startDate}}
-				</span>
-			{{/if}}
-			{{#if endDate}}
-				<span class="endDate">
-					- {{formatDate endDate}}
-				</span>
-			{{else}}
-				<span class="endDate">
-					- Present
+			{{#if experience}}
+				<span class="experience">
+					{{formatExperience experience}}
 				</span>
 			{{/if}}
 			</span>
 		</div>
-  	{{/each}}
-		{{/if}}
 
 		{{#if summary}}
 		<div class="summary">
-			<p>{{summary}}</p>
+			<p>
+				{{summary}} <b>{{techStack}}</b>
+				{{#if endSummary}}
+				{{endSummary}}
+				{{/if}}
+			</p>
+		</div>
+		{{/if}}
+		{{#if keywords.length}}
+		<div id="work-keywords-overrides">
+			<div class="keywords">
+				{{#each keywords}}
+					<span class="label">{{.}}</span>
+				{{/each}}
+			</div>
 		</div>
 		{{/if}}
 		{{#if highlights.length}}
 		<ul class="highlights">
 			{{#each highlights}}
-			<li>{{.}}</li>
+			<li><span>{{.}}</span></li>
 			{{/each}}
 		</ul>
 		{{/if}}

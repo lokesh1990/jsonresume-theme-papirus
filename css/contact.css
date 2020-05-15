@@ -2,23 +2,13 @@
   font-size: 1.3rem;
 }
 
-.section-contact ul.contact {
+.section-contact .contact {
   list-style-type: none;
   text-align: justify;
   margin: 0.7rem 0 0.2rem 0;
   padding: 0;
 }
 
-.section-contact ul.contact li {
-  margin: .5rem 0 .5rem 0;
-}
-
-.section-contact ul.profiles {
-  list-style-type: none;
-  margin: 0.2rem 0 0.2rem 0;
-  padding: 0;
-}
-
-.section-contact ul.profiles li {
+.section-contact ul li {
   margin: .5rem 0 .5rem 0;
 }

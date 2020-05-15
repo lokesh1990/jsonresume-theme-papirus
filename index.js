@@ -61,11 +61,29 @@ Handlebars.registerHelper('formatDate', function(date) {
 	return date;
 });
 
-Handlebars.registerHelper('formatDateYear', function(date) {
-	if(typeof date === 'undefined') {
-		return 'present';
+Handlebars.registerHelper('formatExperience', function(experience) {
+	var expStr = "";
+	if(!experience)
+		return expStr;
+	
+	if(experience.years && experience.years > 0)
+	{
+		if(experience.years == 1)
+			expStr += "1 year ";
+		else
+			expStr += experience.years + " years ";
 	}
-	return date;
+	if(experience.months && experience.months > 0)
+	{
+		if(experience.months == 1)
+			expStr += "1 month";
+		else
+			expStr += experience.months + " months";
+	}
+	if(experience.present)
+		expStr += "*"; 
+		
+	return expStr;
 });
 
 Handlebars.registerHelper('greaterThan', function(v1, v2, options) {

@@ -2,14 +2,18 @@
   margin-bottom: 1.4rem;
 }
 
-.section-skills .item {
+.section-skills .item, #work-keywords-overrides {
   margin-bottom: .6rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#skill-overrides .item .keywords .label {
-  color: #F5FAFF;
-  background-color: #0D3D56;
+#skill-overrides .item .keywords .label,
+#work-keywords-overrides .keywords .label {
+  color: #0D3D56;
+  border-color: #0D3D56;
+  border-style: groove;
+  border-top-width: thin;
+  border-right-width: thin;
 }
