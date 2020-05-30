@@ -1,12 +1,11 @@
 {{#if resume.skills.length}}
 <section class="section-skills" id="skill-overrides">
-	{{>title title='Expertise'}}
 	{{#each resume.skills}}
 	<div class="item">
 		{{#if keywords.length}}
 		<div class="keywords">
 			{{#each keywords}}
-				<span class="label">{{.}}</span>
+			<span class="label">{{.}}</span>
 			{{/each}}
 		</div>
 		{{/if}}

@@ -11,13 +11,18 @@ body {
   padding: 0;
 }
 
-#resume, #header {
+#resume,
+#header {
   overflow: hidden;
+}
+
+[class^="section-"] {
+  margin-top: 1em;
 }
 
 [class^="section-"] > .title {
   font-size: 1.6rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 [class^="section-"] > .title span {

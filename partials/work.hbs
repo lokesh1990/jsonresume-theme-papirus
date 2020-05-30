@@ -1,6 +1,5 @@
 {{#if resume.work.length}}
 <section class="section-work">
-	{{>title title='Experience'}}
 	{{#each resume.work}}
 	<div class="item">
 		{{#if position}}
@@ -10,17 +9,17 @@
 		{{/if}}
 
 		<div class="company">
-		{{#if company}}
+			{{#if company}}
 			<span class="name">
 				{{company}}
 			</span>
-		{{/if}}
+			{{/if}}
 			<span class="date">
-			{{#if experience}}
+				{{#if experience}}
 				<span class="experience">
 					{{formatExperience experience}}
 				</span>
-			{{/if}}
+				{{/if}}
 			</span>
 		</div>
 
@@ -38,7 +37,7 @@
 		<div id="work-keywords-overrides">
 			<div class="keywords">
 				{{#each keywords}}
-					<span class="label">{{.}}</span>
+				<span class="label">{{.}}</span>
 				{{/each}}
 			</div>
 		</div>
